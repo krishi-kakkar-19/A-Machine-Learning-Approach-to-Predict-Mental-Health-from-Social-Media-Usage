@@ -1,10 +1,11 @@
 # Social Media & Mental Health Risk Classifier
 
-## Overview
+## Overview  
+Social media usage has grown rapidly, with billions of users worldwide and increasing daily screen time. Research indicates a strong association between excessive social media use and negative mental health outcomes, including depression, anxiety, and reduced life satisfaction.
 
-This project analyzes the relationship between social media usage patterns and mental health outcomes, specifically focusing on depression risk. Using a synthetic but research-grounded dataset, the project builds a machine learning model to classify individuals at risk of depression based on behavioral and lifestyle features.
+This project addresses the gap between user behavior and awareness by quantifying how digital habits relate to mental health risk. Using behavioral features such as screen time, sleep, and night usage, a logistic regression model is developed to predict depression risk based on PHQ-9–derived classification.
 
-The objective is to demonstrate how data-driven systems can support early identification and intervention in mental health contexts.
+The workflow includes data cleaning, feature engineering, exploratory data analysis, and predictive modeling to evaluate how social media behavior contributes to mental health outcomes.
 
 ---
 
@@ -174,3 +175,16 @@ High recall was prioritized to minimize false negatives and ensure at-risk indiv
 * `social_media_mental_health.csv` – Raw dataset
 * `social_media_mental_health_model_ready_dataset.csv` – Processed dataset
 
+How to Run the Project (Google Colab)
+Download the raw dataset:
+social_media_mental_health.csv
+Open Google Colab
+Upload the dataset:
+Click “Files” (left sidebar)
+Click “Upload”
+Upload social_media_mental_health.csv
+Upload or open the notebook:
+Upload I310D_Final_Project.ipynb
+Or open it from your GitHub repository
+Run the project:
+Click “Runtime” → “Run all”
