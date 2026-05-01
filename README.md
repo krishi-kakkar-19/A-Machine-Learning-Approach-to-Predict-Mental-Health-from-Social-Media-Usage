@@ -175,16 +175,29 @@ High recall was prioritized to minimize false negatives and ensure at-risk indiv
 * `social_media_mental_health.csv` – Raw dataset
 * `social_media_mental_health_model_ready_dataset.csv` – Processed dataset
 
-How to Run the Project (Google Colab)
-Download the raw dataset:
-social_media_mental_health.csv
-Open Google Colab
-Upload the dataset:
-Click “Files” (left sidebar)
-Click “Upload”
-Upload social_media_mental_health.csv
-Upload or open the notebook:
-Upload I310D_Final_Project.ipynb
-Or open it from your GitHub repository
-Run the project:
-Click “Runtime” → “Run all”
+## How to Run the Project (Google Colab)
+
+1. Download the raw dataset:
+   - `social_media_mental_health.csv`
+
+2. Open Google Colab
+
+3. Upload the dataset:
+   - Click **Files** (left sidebar)
+   - Click **Upload**
+   - Select `social_media_mental_health.csv`
+
+4. Upload or open the notebook:
+   - Upload `I310D_Final_Project.ipynb`
+   - OR open it from your GitHub repository
+
+5. Run the project:
+   - Click **Runtime → Run all**
+
+---
+
+### Notes
+
+- The notebook handles preprocessing automatically
+- Do not rename the dataset file
+- No additional setup is required
