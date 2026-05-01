@@ -174,9 +174,3 @@ High recall was prioritized to minimize false negatives and ensure at-risk indiv
 * `social_media_mental_health.csv` – Raw dataset
 * `social_media_mental_health_model_ready_dataset.csv` – Processed dataset
 
----
-
-## Author
-
-Krish Kakkar
-Informatics (Human-Centered Data Science), The University of Texas at Austin 
